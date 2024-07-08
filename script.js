@@ -20,7 +20,7 @@ function uploadFile(){
     redirect: "follow"
      };
 
-    fetch("http://localhost:5000/employees/upload", requestOptions)
+    fetch("http://192.168.29.128:8080/employees/upload", requestOptions)
     .then((response)=> {
 		if (response.ok){
 	alert('File has been successfully uploaded');
